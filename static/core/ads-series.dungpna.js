@@ -177,7 +177,7 @@ function pProcess (opt) {
 
 function adRunnerInit (){
 
-    var active = window.atob(adRunnerActive[0]);
+    var active = adRunnerActive[0];
     adRunnerActive.shift();
     var adRunnerId = adRunnerKey[0];
     adRunnerKey.shift();
