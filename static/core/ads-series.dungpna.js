@@ -177,6 +177,8 @@ function pProcess (opt) {
 
 function adRunnerInit (){
 
+    var active = window.atob(adRunnerActive[0]);
+    adRunnerActive.shift();
     var adRunnerId = adRunnerKey[0];
     adRunnerKey.shift();
     var view = adRunnerViewability[0];
@@ -197,7 +199,7 @@ function adRunnerInit (){
     place.parentNode.insertBefore(wrap, place);
 
     var tasks = [];
-    window._ueu_ = thien8(phat8("MTU4MjE3MDIyODgyMw3gnuD="));
+    window._ueu_ = thien8(phat8(active));
     for(var i in ads){
         tasks.push({
             id: adRunnerId+'-'+i,

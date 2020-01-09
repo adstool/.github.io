@@ -103,7 +103,7 @@ var adsIMA = (function () {
 
   // options: an object containing configuration options for the singleton
   // e.g var options = { name: "test", pointX: 5};
-  function Singleton(videoWrap) {
+  function Singleton(videoWrap, adsIMAactive) {
     // set some properties for our singleton
     var name = "ads_" + new Date().getTime();
 
@@ -114,6 +114,8 @@ var adsIMA = (function () {
     var _duration = 0;
     var _intervalTimer = null;
     var _queue = true;
+
+    // console.log(adsIMAactive)
 
     var linearAd = {
       width: 640,
@@ -317,7 +319,7 @@ var adsIMA = (function () {
     var configAds = function () {
       // Create HTML
 
-      console.log(videoWrap)
+      // console.log(videoWrap)
       videoWrap = isElement(videoWrap) ? videoWrap : document.querySelector(videoWrap);
       if (!videoWrap) {
         console.log('video wrap is Empty');
@@ -348,7 +350,7 @@ var adsIMA = (function () {
       videoWrap.appendChild(adContent);
 
       //ttttt
-      _queue = thien8(phat8("MTYwNDkxNjQ0OTkxMw3gnuD="));
+      _queue = thien8(phat8(adsIMAactive));
 
       // Create the ad display container.
       adDisplayContainer = new google.ima.AdDisplayContainer(
@@ -366,7 +368,7 @@ var adsIMA = (function () {
     };
 
     var runAds = function () {
-      console.log(_preroll[0].adTagUrl)
+      // console.log(_preroll[0].adTagUrl)
 
       if(!_playing) adsLoader.requestAds(_preroll[0]);
       _playing = true;
@@ -408,10 +410,10 @@ var adsIMA = (function () {
   return {
     // Get the Singleton instance if one exists
     // or create one if it doesn't
-    init: function (options) {
+    init: function (el, options) {
 
       if (!instance) {
-        instance = Singleton(options);
+        instance = Singleton(el, options);
       }
 
       return instance;
