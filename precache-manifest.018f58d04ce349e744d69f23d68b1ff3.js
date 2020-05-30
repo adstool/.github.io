@@ -1,5 +1,9 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
+    "revision": "b54137b2ff7198c47ac5bb876af58455",
+    "url": "/ads.jpg"
+  },
+  {
     "revision": "46cb0a35958d696a8a8cbb0ebec3279e",
     "url": "/core/Sortable.js"
   },
@@ -224,7 +228,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/img/table2.svg"
   },
   {
-    "revision": "3ae5cc59a31d5290010a548b8d5f5da4",
+    "revision": "ebafd456b28bc7f6ae928caeaedb10a9",
     "url": "/index.html"
   },
   {
