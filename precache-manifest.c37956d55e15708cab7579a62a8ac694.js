@@ -128,8 +128,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/core/vueui.js"
   },
   {
-    "revision": "f03a5d9555f2b1e2f9f0",
-    "url": "/css/app.5f550f76.css"
+    "revision": "39e15b5b9cde1b7e3c90",
+    "url": "/css/app.c06e1d41.css"
   },
   {
     "revision": "e19d84c5629726c616a8",
@@ -248,12 +248,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/img/table2.svg"
   },
   {
-    "revision": "72c829158da98f2ccb6b340af5044434",
+    "revision": "c7c8e6353e0d1ad557993e066805b8f0",
     "url": "/index.html"
   },
   {
-    "revision": "f03a5d9555f2b1e2f9f0",
-    "url": "/js/app.aa0636c6.js"
+    "revision": "39e15b5b9cde1b7e3c90",
+    "url": "/js/app.c8ff4187.js"
   },
   {
     "revision": "e19d84c5629726c616a8",
