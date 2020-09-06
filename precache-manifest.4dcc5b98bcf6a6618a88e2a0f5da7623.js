@@ -164,7 +164,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/core/vueui.js"
   },
   {
-    "revision": "a132769c524960551fbc",
+    "revision": "7644b450ddefd1ebc511",
     "url": "/css/app.4307cb76.css"
   },
   {
@@ -1940,7 +1940,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/img/sk.daf75e75.svg"
   },
   {
-    "revision": "7beaa193408ffd3764cd5ff3baf88c45",
+    "revision": "ee87f920114df27f4ab3743f4f564adf",
     "url": "/img/sky/bg.jpg"
   },
   {
@@ -2376,12 +2376,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/img/zw.58e2cbd6.svg"
   },
   {
-    "revision": "41a33dc3bbcf80fd1e7f641acc898132",
+    "revision": "0eb2d7fc154dae3963371ad1ea0baec2",
     "url": "/index.html"
   },
   {
-    "revision": "a132769c524960551fbc",
-    "url": "/js/app.9e353ebe.js"
+    "revision": "7644b450ddefd1ebc511",
+    "url": "/js/app.d5ec6562.js"
   },
   {
     "revision": "55cbf5c22186602ecbdf",
