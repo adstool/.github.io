@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui">
+</head>
+
+<body>
+  <div id="app">
+    <div data-ad-runner="top_banner_mb_2"></div>
+  </div>
+  <div data-ad-runner="top_banner_mb"></div>
+  <script src="./core/ads-runner-banner.dunpna.js"></script>
+  <script>
+    function than8(str) {
+      if (!str) return "";
+      var enc = window.btoa(str);
+      if (enc.indexOf('==') !== -1) {
+        return enc.replace('==', '3gnuD=')
+      }
+      return enc + '3mahP=';
+    }
+    function phat8(str) {
+      if (!str) return "";
+      var dec = "";
+      if (str.indexOf('3gnuD=') !== -1) {
+        dec = str.replace('3gnuD=', '==');
+      }
+      else {
+        dec = str.replace('3mahP=', '');
+      }
+      return window.atob(dec);
+    }
+    function myFunction() {
+      // var str = "1643856004402";
+      var current = new Date().getTime() + (30 * 24 * 60 * 60 * 1000);
+      var enc = than8(current);
+      console.log(enc)
+      var dec = phat8(enc);
+      console.log(dec)
+    }
+    myFunction()
+  </script>
+</body>
+
+</html>
