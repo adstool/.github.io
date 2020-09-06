@@ -20,19 +20,19 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/core/ads-ima.js"
   },
   {
-    "revision": "64919dc4c070c7f46905a5f245dcaf8d",
+    "revision": "9c631dd226e318c76db079633b589293",
     "url": "/core/ads-runner-banner.dungpna.js"
   },
   {
-    "revision": "9fcf0218da5023800040a6c22568dca5",
+    "revision": "c24747adf349bd8a4a1711e5f0a98d65",
     "url": "/core/ads-runner-banner.js"
   },
   {
-    "revision": "372bd90dc2ee5c3a55d8527df31bf908",
+    "revision": "91fcb2b27339353f548eef275ac47c20",
     "url": "/core/ads-runner-video.dungpna.js"
   },
   {
-    "revision": "9c12879771e545e19e8b56c65bd6246b",
+    "revision": "cc1f8f0cd77669a665761c6834aca13e",
     "url": "/core/ads-runner-video.js"
   },
   {
@@ -1938,10 +1938,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "daf75e75e18b8299db61fabcc0946af1",
     "url": "/img/sk.daf75e75.svg"
-  },
-  {
-    "revision": "5adaf9b368cf16db5f62a179d2007379",
-    "url": "/img/sky/bg.jpg"
   },
   {
     "revision": "85ba85326d81d0e9b2e23d59f9073bab",
