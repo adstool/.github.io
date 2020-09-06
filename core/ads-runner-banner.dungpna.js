@@ -346,9 +346,8 @@ function AdRunnerBanner() {
     urlBannerExcute = "https://script.google.com/macros/s/AKfycbw0E3XGZ6oLvWHzNkBJomQl_G5lKcclgvyk2YLD/exec";
 
   var domain = document.domain;
-  console.log(domain)
-  var domain = 'adstool.github.io';
-  console.log(domain)
+  // var domain = 'adstool.github.io';
+  console.log('--> AdsRunner Banner For Domain: ' + domain)
   var AdRunnerList; //khoi tao
   if(localStorage){
     var storeStr = localStorage.getItem('AdRunnerBanner');

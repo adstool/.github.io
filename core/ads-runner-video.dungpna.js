@@ -506,9 +506,8 @@ function AdRunnerVideo() {
     urlVideoExcute = "https://script.google.com/macros/s/AKfycbwo-yXWOuH-Rc57ATnkCths4T7VXnnrMzEzbB0fW_uueJ0Q63Y/exec";
 
   var domain = document.domain;
-  console.log(domain)
-  var domain = 'xuhuong.github.io';
-  console.log(domain)
+  // var domain = 'xuhuong.github.io';
+  console.log('--> AdsRunner Video For Domain: ' + domain)
   window.AdVideoWrap = {};
   var AdRunnerTags; //khoi tao
   function AdSetup(AdRunnerTags, adVideoActive){

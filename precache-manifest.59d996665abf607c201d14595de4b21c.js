@@ -20,19 +20,19 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/core/ads-ima.js"
   },
   {
-    "revision": "9c631dd226e318c76db079633b589293",
+    "revision": "ff39e2534f5fe5264a95f1e5c6b9b0c3",
     "url": "/core/ads-runner-banner.dungpna.js"
   },
   {
-    "revision": "c24747adf349bd8a4a1711e5f0a98d65",
+    "revision": "d4ebe2aa28a16b0f176a25d83a2b7cf0",
     "url": "/core/ads-runner-banner.js"
   },
   {
-    "revision": "91fcb2b27339353f548eef275ac47c20",
+    "revision": "39034aef5ecb69c3983ce1f6262ddb20",
     "url": "/core/ads-runner-video.dungpna.js"
   },
   {
-    "revision": "cc1f8f0cd77669a665761c6834aca13e",
+    "revision": "f90c39c05616ea1932e0cfd0de8091ea",
     "url": "/core/ads-runner-video.js"
   },
   {
