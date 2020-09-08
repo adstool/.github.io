@@ -164,7 +164,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/core/vueui.js"
   },
   {
-    "revision": "098e30a4b0109f6b431b",
+    "revision": "bc14a0c574acde83ac5b",
     "url": "/css/app.4307cb76.css"
   },
   {
@@ -2376,12 +2376,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/img/zw.58e2cbd6.svg"
   },
   {
-    "revision": "2541b0bb21d49b8ab90741e20ccbf304",
+    "revision": "d427b7f12f9ed56ed3aab9ad0e118c4a",
     "url": "/index.html"
   },
   {
-    "revision": "098e30a4b0109f6b431b",
-    "url": "/js/app.a49ac2d2.js"
+    "revision": "bc14a0c574acde83ac5b",
+    "url": "/js/app.60169a4c.js"
   },
   {
     "revision": "55cbf5c22186602ecbdf",
